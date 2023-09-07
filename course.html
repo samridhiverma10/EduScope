@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- Correct the link to FontAwesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- -----cources------- -->
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>We are providing the best cources for you!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    "University intermediates bridge foundational and advanced studies, preparing students with essential skills and knowledge for their academic journey
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    A university degree signifies academic achievement, expertise, and the foundation for lifelong learning, opening doors to diverse career opportunities and personal growth.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Post-graduation: Elevating expertise, specialized knowledge, and career prospects for a brighter future.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We are providing you the best facilities</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" />
+                <h3>World Class Library</h3>
+                <p>
+                    The university library, a sanctuary of knowledge, offers boundless resources, tranquil study spaces, and intellectual inspiration for all students.?
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" />
+                <h3>Largest Playground</h3>
+                <p>
+                    The university playground is a dynamic hub of activity and relaxation, where students unwind, play sports, and forge lasting friendships amidst the vibrant backdrop of campus life.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" />
+                <h3>Tasty and Healthy food</h3>
+                <p>
+                    University's canteen is a delightful haven for culinary exploration. From delicious meals to friendly vibes, it's a student favorite
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are aspiring students driven by curiosity, passion, and a relentless pursuit of knowledge. Eager to contribute, learn, and <br />thrive in the dynamic academic environment at [EDUFORD]
+        </p>
+        <p>copyright &copy; Samridhi Verma <i class="fas fa-heart"></i></p>
+    </section>
+    <!-- JavaScript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

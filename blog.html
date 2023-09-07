@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- Correct the link to FontAwesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    <!-- ------------blog page content-----------/ -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="" />
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>
+                    In 2023, we proudly offer an array of certificate and online programs designed to empower individuals in their personal and professional journeys. Our comprehensive selection includes cutting-edge courses, from technology and business to health and arts,
+                    tailored to meet diverse needs. Join us on an educational adventure to enhance your skills, knowledge, and career prospects. Explore our 2023 offerings and embark on a transformative learning experience today.
+                </p>
+                <br />
+                <p>
+                    we're excited to present a range of innovative Certificate and Online Programs. These offerings are carefully curated to address the ever-changing demands of learners and professionals. Whether you're seeking career advancement, skill enhancement, or
+                    personal growth, our programs offer flexibility and expertise to meet your goals. Join us in 2023 for a transformative learning experience tailored to the needs of today's fast-paced world.
+                </p>
+                <br />
+                <p>
+                    Discover our dynamic Certificate and Online Programs for 2023! Whether you're seeking career advancement or expanding your knowledge, we have a diverse range of courses to suit your needs. Our expertly curated programs provide flexible learning options,
+                    equipping you with valuable skills and expertise. Stay ahead in a rapidly changing world with our 2023 offerings, designed to empower you for success.
+                </p>
+                <br />
+                <p>
+                    In 2023, our institution introduces an exciting range of Certificate and Online Programs. These dynamic offerings are meticulously curated to align with the rapidly changing job market and educational landscape. Our commitment to excellence ensures that
+                    learners acquire relevant skills and knowledge to thrive in their chosen fields. Discover our 2023 programs and embark on a journey towards personal and professional growth with us.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name" />
+                        <input type="text" placeholder="Enter Email" />
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are aspiring students driven by curiosity, passion, and a relentless pursuit of knowledge. Eager to contribute, learn, and <br />thrive in the dynamic academic environment at [EDUFORD]
+        </p>
+        <p>copyright &copy; Samridhi Verma <i class="fas fa-heart"></i></p>
+    </section>
+    <!-- JavaScript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
