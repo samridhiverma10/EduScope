@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n" .
               "Subject: $subject.\n" .
               "User Message: $message.\n";  // Removed the extra period at the end
 
-$to = "samridhiverma@gmail.com";
+$to = "samridhiverma01@gmail.com";
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";  // Used .= to append headers correctly
 
